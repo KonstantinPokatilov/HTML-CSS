@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0%;  
     }
+
+    @import url(Product.css);
+    @import url(Basket_style.css);
     
     body {
         font-family: "Lato"; 
@@ -31,6 +34,14 @@
         padding-left: 231px;
     }
     
+    .go_home {
+        transition: 0.3s linear;
+    }
+
+    .go_home:hover {
+        transform: scale(1.2);
+    }
+   
     .main_search {
         margin-left: 41px;
         margin-top: 10px;
@@ -79,8 +90,9 @@
         padding-bottom: 22px;
         padding-left: 33px;
         position: relative;
+               
     }
-    
+      
     .mega_heading {
         width: 232px;
         font-size: 14px;
@@ -124,10 +136,13 @@
         text-decoration: none;
         margin-bottom: 11px;
         margin-left: 21px;
+        transition: 0.3s linear;
     }
-    
+
     .mega_link:hover {
         color: #F16D7F;
+        transform: scale(1.1);
+        
     }
     
     .mainpic {
@@ -523,7 +538,7 @@
         padding-left: 230px;
         margin-bottom: 35px;
     }
-    
+       
     .bread {
         display: flex;
         justify-content: space-between;
@@ -869,7 +884,8 @@
     .txt_info_down:not(:first-child) {
         margin-top: 16px;
     }
-    
+
+        
     @font-face {
         font-family: "Lato";
         src: url(Fonts/Lato-Thin.ttf);
