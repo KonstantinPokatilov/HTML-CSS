@@ -1,6 +1,11 @@
 .container_prod {
-    width: 1600px;
+    max-width: 1140px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.head_catalog_prod_back {
+    background-color:#F8F3F4
 }
 
 .head_catalog_prod {
@@ -10,8 +15,6 @@
     background-color:#F8F3F4;
     padding-top: 59px;
     padding-bottom: 60px;
-    padding-right: 230px;
-    padding-left: 230px;
     margin-bottom: 0;
 }
 
@@ -36,10 +39,14 @@
     background-color: #F7F7F7 ;
 }
 
+.carousel {
+    background-color: #F7F7F7;
+}
+
 .carousel-item {
    width: 597px;
    height: 724px; 
-   margin-left: 514px;
+   margin-left: 278px;
    
 }
 
@@ -61,13 +68,17 @@
     width: 1141px;
     height: 601px;
     border: 1px solid #EAEAEA;
-    margin-left: 230px;
     margin-top: -40px;
     background-color:#FFFFFF;;
     position: relative;
     text-align: center;
     padding-top: 64px;
     margin-bottom: 129px;
+}
+
+.fet_it_cont_under {
+    display: flex;
+    justify-content: space-between;
 }
 
 .woman_zagolovok {
