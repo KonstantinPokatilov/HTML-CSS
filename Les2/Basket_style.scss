@@ -176,11 +176,14 @@ p {
 .basket_form {
     width: 360px;
     margin-top: 113px;
-    margin-left: 129px;
 }
 
 .basket_adress {
-
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    padding-top: 20px;
 }
 
 .txt_adress {

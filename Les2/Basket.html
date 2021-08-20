@@ -79,7 +79,7 @@
                     <div class="basket_prod">
                         <div class="basket_item">
                             <div class="change_basket">
-                                <img src="Img/Basket 1.png" alt="Img1">
+                                <img src="Img/Basket_1.png" alt="Img1">
                                 <div class="basket_info">
                                     <p class="basket_txt">MANGO PEOPLE <br> T-SHIRT</p>
                                     <p class="basket_txt_info basket_txt_info_top">Price: <span
@@ -88,7 +88,7 @@
                                     <p class="basket_txt_info">Color: Red</p>
                                     <p class="basket_txt_info">Size: Xl</p>
                                     <p class="basket_txt_info">Quantity:
-                                        <input class="basket_txt_info_quantity" type="number" name="myInput" size="1"
+                                        <input class="basket_txt_info_quantity" type="number" name="myInput"
                                             required="">
                                     </p>
                                     <button type="button" class="btn-close" aria-label="Close"></button>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="basket_item_second">
                             <div class="change_basket">
-                                <img src="Img/Basket 2.png" alt="Img2">
+                                <img src="Img/Basket_2.png" alt="Img2">
                                 <div class="basket_info">
                                     <p class="basket_txt">MANGO PEOPLE <br> T-SHIRT</p>
                                     <p class="basket_txt_info basket_txt_info_top">Price: <span
@@ -106,7 +106,7 @@
                                     <p class="basket_txt_info">Color: Red</p>
                                     <p class="basket_txt_info">Size: Xl</p>
                                     <p class="basket_txt_info">Quantity:
-                                        <input class="basket_txt_info_quantity" type="number" name="myInput" size="1"
+                                        <input class="basket_txt_info_quantity" type="number" name="myInput"
                                             required="">
                                     </p>
                                     <button type="button" class="btn-close" aria-label="Close"></button>
@@ -119,22 +119,25 @@
                         <button class="basket_button" type="submit">CONTINUE SHOPPING</button>
                     </div>
                 </form>
-                <form class="basket_form">
-                    <form class="basket_adress">
-                        <p class="txt_adress">SHIPPING ADRESS</p>
-                        <input type="text" class="basket_adress_input" placeholder="Cherepovets" required="">
-                        <input type="text" class="basket_adress_input" placeholder="State" required="">
-                        <input type="number" class="basket_adress_input" placeholder="Postcode / Zip" required="">
-                        <button class="basket_adress_button" type="submit">GET a QUOTE</button>
+                <div class="basket_adress">
+                    <form class="basket_form">
+                        <div>
+                            <p class="txt_adress">SHIPPING ADRESS</p>
+                            <input type="text" class="basket_adress_input" placeholder="Cherepovets" required="">
+                            <input type="text" class="basket_adress_input" placeholder="State" required="">
+                            <input type="number" class="basket_adress_input" placeholder="Postcode / Zip" required="">
+                            <button class="basket_adress_button" type="submit">GET a QUOTE</button>
+                        </div>
+                        <div class="basket_check">
+                            <p class="basket_check_txt">SUB TOTAL &nbsp;&nbsp;&nbsp; $900</p>
+                            <p class="basket_check_total">GRAND TOTAL &nbsp;&nbsp;&nbsp; <span
+                                    class="total_price">$900</span></p>
+                            <div class="line_total"></div>
+                            <button class="total_button">PROCEED TO CHECKOUT</button>
+                        </div>
                     </form>
-                    <form class="basket_check">
-                        <p class="basket_check_txt">SUB TOTAL &nbsp;&nbsp;&nbsp; $900</p>
-                        <p class="basket_check_total">GRAND TOTAL &nbsp;&nbsp;&nbsp; <span
-                                class="total_price">$900</span></p>
-                        <div class="line_total"></div>
-                        <button class="total_button">PROCEED TO CHECKOUT</button>
-                    </form>
-                </form>
+                </div>
+
             </div>
 
         </main>
