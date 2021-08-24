@@ -18,8 +18,8 @@ body {
 
 .container {
   max-width: 1140px;
-  width: 100%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .header {
@@ -182,8 +182,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .mainpic_background {
@@ -195,12 +196,12 @@ body {
 }
 
 .mainpic_text {
-  padding-right: 331px;
   padding-top: 290px;
   background-color: #f1e4e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 100px;
 }
 
 .img_brand_txt {
@@ -225,6 +226,14 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.First_pic {
+  width: 30%;
+}
+
+.First_pic img {
+  width: 100%;
 }
 
 .text {
@@ -260,6 +269,10 @@ body {
   margin-left: 491px;
   top: 65px;
   padding-bottom: 65px;
+}
+
+.onepic img {
+  width: 100%;
 }
 
 .fetured {
@@ -298,6 +311,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .fet_it {
@@ -364,8 +379,12 @@ body {
 
 .fet_it_cat {
   background-color: #F8F8F8;
-  width: 360px;
+  width: 32%;
   position: relative;
+}
+
+.item_img {
+  width: 100%;
 }
 
 .fet_it_cat:hover {
@@ -461,12 +480,20 @@ body {
   color: #F26376;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  margin-left: 470px;
 }
 
 .top_button:hover {
   background-color: #FF6A6A;
   color: #FFFFFF;
+}
+
+.top_button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .advantages_footer {
@@ -1081,6 +1108,47 @@ body {
 
 .txt_info_down:not(:first-child) {
   margin-top: 16px;
+}
+
+@media screen and (max-width: 1169px) {
+  .left_header {
+    margin-left: 30px;
+  }
+  .right_header {
+    margin-right: 41px;
+  }
+  .mainpic_img_man {
+    margin-left: 40px;
+  }
+  .threepic {
+    padding: 0px 15px;
+  }
+  .onepic {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .fet_up {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .fet_down {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .down_footer_cont {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    margin-left: 70px;
+  }
+  .text_onepic {
+    margin-left: 400px;
+  }
 }
 
 @font-face {
