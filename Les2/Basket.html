@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/472363103f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <base target="_blank">
+</head>
+
+<body>
+    <div class="header_main">
+        <nav class="header container_bas">
+            <div class="left_header">
+                <ul class="menu_left">
+                    <li class="go_home"><a href="index.html" target="_self"> <img src="Img/Main.svg" alt="Главная"></a>
+                    </li>
+
+                </ul>
+                <form class="head_search">
+                    <input class="input_search" type="search" placeholder="Поиск по сайту...">
+                    <button class="button_search" type="submit"> <img src="Img/Search.svg" alt="Search"></button>
+                </form>
+            </div>
+            <div class="right_header">
+                <ul class="menu_right">
+                    <li class="menu"><a href="Catalog.html"> <img src="Img/Catalog.svg" alt="Catalog"></a>
+                        <nav class="mega_box">
+                            <div class="menu_item">
+                                <h2 class="mega_heading">MENU</h2>
+                                <h3 class="mega_heading2">MAN</h3>
+                                <a class="mega_link" href="#">Accessories</a>
+                                <a class="mega_link" href="#">Bags</a>
+                                <a class="mega_link" href="#">Denim</a>
+                                <a class="mega_link" href="#">T-Shirts</a>
+                            </div>
+                            <div class="menu_item">
+                                <h3 class="mega_heading2">WOMAN</h3>
+                                <a class="mega_link" href="#">Accessories</a>
+                                <a class="mega_link" href="#">Jackets & Coats</a>
+                                <a class="mega_link" href="#">Polos</a>
+                                <a class="mega_link" href="#">T-Shirts</a>
+                                <a class="mega_link" href="#">Shirts</a>
+                            </div>
+                            <div class="menu_item">
+                                <h3 class="mega_heading2">KIDS</h3>
+                                <a class="mega_link" href="#">Accessories</a>
+                                <a class="mega_link" href="#">Jackets & Coats</a>
+                                <a class="mega_link" href="#">Polos</a>
+                                <a class="mega_link" href="#">T-Shirts</a>
+                                <a class="mega_link" href="#">Shirts</a>
+                                <a class="mega_link" href="#">Bags</a>
+                            </div>
+                        </nav>
+                    </li>
+                    <li class="cabinet"><a href="Cabinet.html"> <img src="Img/Cabinet.svg" alt="Личный кабинет"></a>
+                    </li>
+                    <li><a href="Basket.html"> <img src="Img/Basket.svg" alt="Корзина"></a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <div>
+        <main>
+            <div class="cont_shop">
+                <article class="registration_h container_bas">
+                    <p class="registration_p">SHOPPING CART</p>
+                </article>
+            </div>
+            <div class="basket_card container_bas">
+                <form class="basket_view">
+                    <div class="basket_prod">
+                        <div class="basket_item">
+                            <div class="change_basket">
+                                <img src="Img/Basket_1.png" alt="Img1">
+                                <div class="basket_info">
+                                    <p class="basket_txt">MANGO PEOPLE <br> T-SHIRT</p>
+                                    <p class="basket_txt_info basket_txt_info_top">Price: <span
+                                            class="color_txt">$300</span>
+                                    </p>
+                                    <p class="basket_txt_info">Color: Red</p>
+                                    <p class="basket_txt_info">Size: Xl</p>
+                                    <p class="basket_txt_info">Quantity:
+                                        <input class="basket_txt_info_quantity" type="number" name="myInput"
+                                            required="">
+                                    </p>
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basket_item_second">
+                            <div class="change_basket">
+                                <img src="Img/Basket_2.png" alt="Img2">
+                                <div class="basket_info">
+                                    <p class="basket_txt">MANGO PEOPLE <br> T-SHIRT</p>
+                                    <p class="basket_txt_info basket_txt_info_top">Price: <span
+                                            class="color_txt">$300</span>
+                                    </p>
+                                    <p class="basket_txt_info">Color: Red</p>
+                                    <p class="basket_txt_info">Size: Xl</p>
+                                    <p class="basket_txt_info">Quantity:
+                                        <input class="basket_txt_info_quantity" type="number" name="myInput"
+                                            required="">
+                                    </p>
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket_item_button">
+                        <button class="basket_button" type="submit">CLEAR SHOPPING CART</button>
+                        <button class="basket_button" type="submit">CONTINUE SHOPPING</button>
+                    </div>
+                </form>
+                <div class="basket_adress">
+                    <form class="basket_form">
+                        <div>
+                            <p class="txt_adress">SHIPPING ADRESS</p>
+                            <input type="text" class="basket_adress_input" placeholder="Cherepovets" required="">
+                            <input type="text" class="basket_adress_input" placeholder="State" required="">
+                            <input type="number" class="basket_adress_input" placeholder="Postcode / Zip" required="">
+                            <button class="basket_adress_button" type="submit">GET a QUOTE</button>
+                        </div>
+                        <div class="basket_check">
+                            <p class="basket_check_txt">SUB TOTAL &nbsp;&nbsp;&nbsp; $900</p>
+                            <p class="basket_check_total">GRAND TOTAL &nbsp;&nbsp;&nbsp; <span
+                                    class="total_price">$900</span></p>
+                            <div class="line_total"></div>
+                            <button class="total_button">PROCEED TO CHECKOUT</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+    <div>
+        <div class="footer">
+            <div class="advantages_footer">
+                <div class="advantages container_prod">
+                    <div class="car">
+                        <img src="Img/Car.svg" alt="Доставка">
+                        <p class="h_car">Free Delivery</p>
+                        <p class="text_car">Worldwide delivery on all. Authorit tively morph <br> next-generation innov
+                            tion with
+                            extensive
+                            models.</p>
+                    </div>
+                    <div class="sale">
+                        <img src="Img/Sale.svg" alt="Скидки">
+                        <p class="h_car h_sale">Sales & discounts</p>
+                        <p class="text_car text_sale">Worldwide delivery on all. Authorit tively morph <br>
+                            next-generation
+                            innov
+                            tion with
+                            extensive
+                            models.</p>
+                    </div>
+                    <div class="quality">
+                        <img src="Img/Quality.svg" alt="Качество">
+                        <p class="h_car h_quality">Quality assurance</p>
+                        <p class="text_car">Worldwide delivery on all. Authorit tively morph <br> next-generation innov
+                            tion with
+                            extensive
+                            models.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subscribe">
+                <div class="face_text_sub container_prod">
+                    <aside class="face">
+                        <img class="face_img" src="Img/Face.png" alt="Face">
+                        <p class="text_face">“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi, <i>a pulvinar
+                                purus <br>
+                                condimentum“</i> </p>
+                    </aside>
+                    <div>
+                        <p class="text_sub"> <span class="text_subscribe">SUBSCRIBE</span><br>
+                            FOR OUR NEWLETTER AND PROMOTION</p>
+                        <form>
+                            <input class="input" type="email" placeholder="Enter Your Email" required>
+                            <button class="foot_button" type="submit">Subscribe</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="down_footer">
+                <div class="down_footer_cont container_prod">
+                    <div>
+                        <p class="p_footer">© 2021 Brand All Rights Reserved.</p>
+                    </div>
+                    <div class="social">
+                        <ul class="social_web">
+                            <li class="social_web_theme"><a href="#"><img src="img/Facebook.svg" alt="Facebook"></a>
+                            </li>
+                            <li class="social_web_theme"><a href="#"><img src="img/Instagram.svg" alt="Instagram"></a>
+                            </li>
+                            <li class="social_web_theme"><a href="#"><img src="img/Pinterest.svg" alt="Pinterest"></a>
+                            </li>
+                            <li class="social_web_theme"><a href="#"><img src="img/Twitter.svg" alt="Twitter"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
